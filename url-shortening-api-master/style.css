@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(274, 41%, 97%);
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between; 
+    margin: 40px 100px;
+    background-color: white;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+  
+}
+
+.logo-side{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.btn-section{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-right: 35px;   
+}
+.logo-image{
+    width: 50px;
+    height: 20px;
+    margin-right: 35px;
+}
+
+a{
+    margin-right: 30px; 
+    text-decoration: none;
+    color: hsl(257, 7%, 63%); 
+    font-size: 18px;
+}
+
+.btn1{
+    padding: 5px;
+    background-color: white;
+    color:hsl(257, 7%, 63%) ;
+    margin-right: 35px;
+    border-radius: 8px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: hsl(257, 7%, 63%);
+    color: white;
+}
+
+.btn2{
+    padding: 5px;
+    background-color:  hsl(180, 66%, 49%);
+    color:white ;
+    margin-right: 35px;
+    border-radius: 12px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: hsl(257, 7%, 63%);
+    color: white;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between; 
+    margin: 70px 100px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: hsl(255, 11%, 22%);
+    margin-top: 100px;
+   margin-bottom: 10px;
+}
+
+.hero-paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(257, 7%, 63%);
+   margin-bottom: 10px; 
+}
+
+.hero-btn{
+    padding: 10px;
+    background-color:  hsl(180, 66%, 49%);
+    color:white ;
+    margin-right: 35px;
+    border-radius: 15px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;   
+}
+
+.hero-btn:hover{
+    background-color: hsl(257, 7%, 63%);
+    color: white;
+}
+.hero-image{
+    background-image: url(./images/illustration-working.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 70vh;
+}
+
+.hero-bottom{
+background-color: hsl(274, 41%, 97%);
+}
+
+.hero-bottom-container{
+    margin: 70px 100px; 
+    background-color: hsl(257, 27%, 26%);
+    width: 65%;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+width: 70%;
+margin:  60px 40px 40px 80px;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid hsl(0, 87%, 67%);
+color: hsl(0, 87%, 67%);
+}
+input::placeholder{
+    color: hsl(0, 87%, 67%);
+}
+.hero-bottom-btn{
+    padding: 12px;
+    background-color:  hsl(180, 66%, 49%) !important;
+    color:white ;
+    margin-right: 35px;
+    border-radius: 8px;
+    width: 120px;
+    border: none;
+    cursor: pointer; 
+}
+
+.hero-bottom-btn{
+    background-color: hsl(257, 7%, 63%);
+    color: white;
+}
+
+.advanced-stat{
+    margin: 70px 100px;
+    text-align: center;
+    background-color: hsl(274, 41%, 97%);
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+   color: hsl(257, 27%, 26%); 
+}
+
+.advanced-paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(257, 7%, 63%);
+    margin-top: 15px;
+}
+
+.advanced-start-card1{
+    width: 23%;
+    height: 40%;
+    padding: 10px;
+     padding-bottom: 30px;
+    border: 1px solid;
+    margin: 20px 20px 20px 0;  
+    position: relative;
+    text-align: justify;
+    background-color: white;
+    border: none;
+    outline: none;
+
+
+}
+
+.advanced-start-card2{
+    width: 23%;
+    height: 40%;
+    padding: 10px;
+     padding-bottom: 30px;
+    border: 1px solid;
+    margin: 20px; 
+    margin-top: 45px; 
+  position: relative;
+  text-align: justify;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+}
+
+.advanced-start-card3{
+    width: 23%;
+    height: 40%;
+    padding: 10px;
+     padding-bottom: 30px;
+    border: 1px solid;
+    margin: 20px; 
+    margin-top: 65px; 
+  position: relative;
+  text-align: justify;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+}
+
+.advanced-card-body{
+    display: flex;
+    
+}
+
+.advanced-icon{
+position: absolute;
+bottom: 150px;
+left: 20px;
+background-color:hsl(257, 27%, 26%) ;
+border-radius: 100%;
+width: 50px;
+height: 50px;
+}
+hr{
+    border: 4px solid hsl(180, 66%, 49%) ;
+    width: 15px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: hsl(257, 27%, 26%);
+}
+.card-paragragh{
+    font-size: 14px;
+    font-weight: 500;
+    color:hsl(257, 7%, 63%) ;
+    margin-top: 15px;
+}
+.boost-link{
+    margin-top: 100px;
+}
+
+.boost-link-image{
+    /* margin: 70px 100px;  */
+    background-color: hsl(257, 27%, 26%);
+    width: 100%;
+    height: 180px;
+    /* border-radius: 10px; */
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+
+h5{
+color: white;
+font-size: 30px;
+padding-top: 50px;
+}
+
+.boost-btn{
+    padding: 10px;
+    background-color:  hsl(180, 66%, 49%) !important;
+    color:white ;
+    margin-right: 35px;
+    border-radius: 15px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px ; 
+   
+}
+
+.footer-section{
+    background-color: hsl(260, 8%, 14%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .footer-image{
+    color: white !important;
+    font-size: 24px;
+    font-weight: 700;
+
+} */
+
+h6{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; 
+}
+
+.footer-link{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 426px) {
+   .nav-section{
+    display: none;
+   }
+   .hero-section{
+    flex-direction: column-reverse;
+   }
+   .hero-text{
+    width: 100%;
+   }
+   h1{
+    font-size: 35px;
+    width: 100%;
+   }
+   .hero-image{
+    width:100vh;
+    height: 100vh;
+   }
+   .hero-bottom-container{
+    width: 80%;
+    margin: 40px;
+   }
+   .hero-bottom{
+    width: 100%;
+   }
+   input{
+    width:80%;
+    margin-left: 40px;
+    padding: 10px;
+   }
+   .hero-bottom-btn{
+    padding: 6px;
+    width: 80%;
+    float: right;
+   }
+   .advanced-stat-text{
+    width: 100%;
+   }
+   h2{
+    font-size: 26px;
+    width: 100%;
+}
+.advanced-card-body{
+ flex-direction: column-reverse;
+ width: 100%;
+
+ 
+}
+.advanced-icon{
+    bottom: 200px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.advanced-start-card1, .advanced-start-card2, .advanced-start-card3 {
+    width: 100%;
+    border: 1px solid;
+  text-align: justify;
+}
+.advanced-start-card3{
+ 
+}
+
+.card-paragragh, h4{
+    width: 100%;
+}
+h4{
+    font-size: 18px;
+}
+.card-paragragh{
+    font-size: 15px;
+}
+  }
